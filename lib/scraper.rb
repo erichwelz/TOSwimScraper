@@ -52,6 +52,8 @@ module Scraper
       File.open("pool_urls.json","w") do |f|
         f.write(@pool_urls.to_json)
       end
+
+      @pool_urls
     end
 
     def simple_equal(num)
