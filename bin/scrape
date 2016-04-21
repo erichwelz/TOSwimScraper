@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby
+# coding: utf-8
+
+require_relative '../lib/scraper'
+
+if ARGV.empty?
+    puts "      Usage: scrape UPDATE_TYPE DISPLAY_TYPE \n\n"
+    puts "      Update type:\n"
+    puts "      '-f' Full refresh including regrabbing swim times and pool locations \n"
+    puts "      '-s' Just update swim schedules  \n\n"
+    puts "      Display type: \n"
+    puts "      '-v' Verbose output \n"
+    puts "      '-c' Concise output(default) \n"
+else
+
+  display_mode = ARGV[1] || '-c'
+
+  aliases = {
+    "-c" => "concise",
+    "-v" => "verbose"
+  }
+
+  display_mode = aliases[display_mode] || "concise"
+
+  Scraper.display_mode(display_mode)
+
+  if ARGV.include?('-f')
+    Scraper.gather_pool_info
+    Scraper.gather_pool_swim_times
+    Scraper.gather_pool_program_cost_status
+  elsif ARGV.include?('-s')
+    Scraper.gather_pool_swim_times
+    Scraper.gather_pool_program_cost_status
+  end
+end
