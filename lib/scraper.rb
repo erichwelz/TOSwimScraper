@@ -39,7 +39,7 @@ module Scraper
       pool_coordinates = pool_addresses.map { |address| gather_pool_coordinates(address) }
 
       # Convert Pool Data to Hash
-      pool_names.each_with_index do |pool, index|
+      pool_names.each_with_index do |_, index|
         current_pool = {}
         current_pool[:name] = pool_names[index]
         current_pool[:url] = pool_links[index]
@@ -86,7 +86,7 @@ module Scraper
       end
 
       # remove days with no swim times
-      weeks.delete_if { |day, time| time == [" "] || time == [] }
+      weeks.delete_if { |_, time| time == [" "] || time == [] }
     end
 
     def gather_pool_addresses(pools)
@@ -140,7 +140,7 @@ module Scraper
     def gather_pool_swim_times
       begin
         @pool_urls ||= JSON.parse(File.read('pool_urls.json'), symbolize_names: true)
-      rescue => e
+      rescue
         puts "Couldn't open pool_info, run scrape -f or run in path with pool_urls.json file"
         exit
       end
@@ -181,7 +181,7 @@ module Scraper
         pool_url_regex = pool[:url].match(/\/parks\/prd\/facilities\/complex\/\d*/).to_s
         match = free_facility_urls_regexed.find{ |e| pool_url_regex == e }
         pool[:free_swim] = match ? true : false
-       end
+      end
 
       File.open("pools_data.json","w") do |f|
         f.write(@pools.to_json)
