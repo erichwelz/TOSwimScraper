@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.files         = ["lib/scraper.rb"]
   gem.executables   << 'scrape'
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "scraper"
+  gem.name          = "TOSwimScraper"
   gem.require_paths = ["lib"]
   gem.version       = '0.1.1'
 
