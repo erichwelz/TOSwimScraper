@@ -56,10 +56,6 @@ module Scraper
       @pool_urls
     end
 
-    def simple_equal(num)
-      2 * num
-    end
-
     def swim_time_finder(week, lane_swim_row_index)
       week.at_css("tbody").css('tr')[lane_swim_row_index].children
       .map do |el|
@@ -165,6 +161,8 @@ module Scraper
         f.write(@pool_urls.to_json)
         puts "\nWriting pools_data.json complete"
       end
+
+      @pool_urls
     end
 
     def gather_pool_program_cost_status
@@ -189,6 +187,8 @@ module Scraper
         f.write(@pools.to_json)
         puts "Writing program cost status to pools_data.json complete"
       end
+
+      @pools
     end
 
   end
