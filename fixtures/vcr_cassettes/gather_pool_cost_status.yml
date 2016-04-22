@@ -1,0 +1,782 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www1.toronto.ca/wps/portal/contentonly?vgnextchannel=a96adada600f0410VgnVCM10000071d60f89RCRD&vgnextoid=aaafdada600f0410VgnVCM10000071d60f89RCRD
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 22 Apr 2016 20:00:32 GMT
+      Set-Cookie:
+      - JSESSIONID=0000JHJTCp90-rps47ypmgz0YU3:18a7vk55k; Path=/
+      - JSESSIONID=0000JHJTCp90-rps47ypmgz0YU3:18a7vk55k; Path=/
+      Ibm-Web2-Location:
+      - "/wps/portal/contentonly/!ut/p/b1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKDHF19fP0sLAz9PQMMDBwtzB2NXJxdjA38DYEKIoEKDHAARwNC-r30o9Jz8pOAVoXrR4EV4zHLzyM_N1W_IDeiMsTEUREAaDG4Ew!!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/"
+      Content-Location:
+      - "/wps/portal/contentonly/!ut/p/b1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKDHF19fP0sLAz9PQMMDBwtzB2NXJxdjA38DYEKIoEKDHAARwNC-r30o9Jz8pOAVoXrR4EV4zHLzyM_N1W_IDeiMsTEUREAaDG4Ew!!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/"
+      Cache-Control:
+      - max-age=300
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      Age:
+      - '287'
+      Content-Length:
+      - '13117'
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n\r\n \r\n<html
+        lang=\"en-CA\">\r\n  \r\n \r\n\r\n\t  \r\n \r\n\r\n\t  \r\n   \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!--
+        page layout view start -->\r\n\r\n   \r\n   \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<head>\r\n\t<meta
+        charset=\"utf-8\" />\r\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"
+        />\r\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"
+        />\r\n\r\n\t<meta property=\"og:title\" content=\"Free & Low Cost Options
+        for Recreation Programs - Recreation Programs & Registration - Parks, Forestry
+        & Recreation | City of Toronto\"/>\r\n\t<meta property=\"og:description\"
+        content=\"On September 1, 2014, The City of Toronto is removing recreation
+        program fees at designated community centres across the city so that more
+        people can use recreation programs.\"/>\r\n\t<meta name=\"keywords\" content=\"Community
+        Centres Where Programs Are Free\"/>\r\n\t<meta name=\"description\" content=\"On
+        September 1, 2014, The City of Toronto is removing recreation program fees
+        at designated community centres across the city so that more people can use
+        recreation programs.\"/>\r\n\t<meta name=\"Author\" content=\"\" />\r\n\t<meta
+        name=\"Owner\" content=\"\" />\r\n\t<meta name=\"DC.title\" content=\"Free
+        & Low Cost Options for Recreation Programs - Recreation Programs & Registration
+        - Parks, Forestry & Recreation | City of Toronto\" />\r\n\t<meta name=\"DC.description\"
+        lang=\"en\" content=\"On September 1, 2014, The City of Toronto is removing
+        recreation program fees at designated community centres across the city so
+        that more people can use recreation programs.\" />\r\n\t<meta name=\"DC.identifier\"
+        content=\"aaafdada600f0410VgnVCM10000071d60f89RCRD\" />\r\n\t<meta name=\"DC.language\"
+        content=\"en-CA\" />\r\n\t<meta name=\"DC.subject\" content=\"Community Centres
+        Where Programs Are Free\" />\r\n\t<meta name=\"DC.Date.modified\" content=\"Wed
+        Apr 20 15:49:27 EDT 2016\" />\r\n\t<meta name=\"WT.sp\" content=\"PFR - Recreation
+        Programs and Registration\" />\r\n\t<meta name=\"WT.cot_h1\" content=\"Free
+        & Low Cost Options for Recreation Programs Item Page\" />\r\n\t\r\n\t<!--
+        BOOTSTRAP CORE CSS -->\r\n\t<link rel=\"stylesheet\" href=\"/wcmAsset/css/bootstrap.min.css\">\r\n\r\n\t<!--[if
+        lt IE 9]>\r\n\t\t<script src=\"/wcmAsset/js/html5shiv.js\"></script>\r\n\t\t<script
+        src=\"/wcmAsset/js/respond.min.js\"></script>\r\n\t<![endif]-->\r\n\r\n\t<!--
+        BOOTSTRAP AND JQUERY JS -->\r\n\t<script src=\"//code.jquery.com/jquery-1.11.0.min.js\"></script>\r\n\t<script
+        src=\"//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js\"></script>\r\n\r\n\t\r\n\r\n<!--
+        \ City of Toronto DPM theme -->\r\n\r\n<link href=\"/static_files/assets/css/bootstrap_cot_customizations.css\"
+        rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n<script src=\"/static_files/assets/js/bootstrap_cot_customizations.js\"
+        type=\"text/javascript\" charset=\"utf-8\"></script>\n\r\n\t<title>Free &
+        Low Cost Options for Recreation Programs - Recreation Programs & Registration
+        - Parks, Forestry & Recreation | City of Toronto</title>\r\n\r\n</head>\r\n<body
+        vocab=\"http://schema.org/\" typeof=\"WebPage\">\r\n\t<div id=\"wrap\">\r\n\t\t<div
+        id=\"skiptocontent\" class=\"skipto\">\r\n\t\t\t<a href=\"#maincontent\">skip
+        to main content</a>\r\n\t\t</div>\r\n       \t<div class=\"r1 region\">\r\n\t\t\t<div>\r\n<!--
+        R:defaultRegionLayout.jsp||ST:2016-04-22 15:55:45.338 -->\r\n<div>\r\n\r\n<!--
+        start of top-navigation.jsp -->\r\n<!--  configUrl: http://search.toronto.ca/search
+        \  TorontoWebsiteToronto_common_-->\n\r\n<!-- P:top-navigation.jsp||ST:2016-04-22
+        15:50:25.943 -->\r\n<section class=\"sitenavigation\">\r\n\t<nav class=\"navbar-default\"
+        role=\"navigation\">\r\n\t\t<div class=\"blue\">\r\n\t\t\t<div class=\"container\">\r\n\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t<div class=\"col-xs-12 col-sm-4 hidden-print\">\r\n\t\t\t\t\t\t<a
+        class=\"siteIcon\" href=\"http://www.toronto.ca\">City of Toronto homepage</a>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t\r\n\t\t\t\t\t<div
+        class=\"col-xs-12 visible-print\">\r\n    \t\t\t\t\t<div class=\"col-xs-6\"><img
+        alt=\"City of Toronto\" src=\"/wcmAsset/images/citylogo_print.gif\"></div>\r\n
+        \   \t\t\t\t\t<div class=\"col-xs-6\"><p class=\"pull-right\">Web page Printout</p></div>\r\n
+        \   \t\t\t\t</div>\r\n    \r\n\t\t\t\t\t<div class=\"col-xs-12 col-sm-offset-2
+        col-sm-6 col-md-offset-2 col-md-4 hidden-print\">\r\n\t\t\t\t\t\t<!-- <form
+        class=\"siteSearch\" role=\"search\" action=\"http://search.toronto.ca/search\"
+        method=\"get\"> -->\r\n\t\t\t\t\t\t<script type=\"text/javascript\" src=\"/wcmAsset/gsasearch/js/search.js\"></script>\r\n\t\t\t\t\t\t<script
+        type=\"text/javascript\" src=\"/wcmAsset/gsasearch/js/jquery.autocomplete.only.js\"></script>\r\n\t\t\t\t\t\t<link
+        rel=\"stylesheet\" href=\"/wcmAsset/gsasearch/css/search.css\" type=\"text/css\">\r\n\t\t\t\t\t\t<form
+        class=\"form-inline\" role=\"search\" action=\"http://search.toronto.ca/search\"
+        method=\"get\" onSubmit=\"dcsMultiTrack('WT.dl','26','WT.ti','','WT.search-term',document.getElementById('q').value);\">\r\n\t\t\t\t\t\t\t<fieldset>\r\n\t\t\t\t\t\t\t\t<legend>&nbsp;\r\n\t\t\t\t\t\t\t\t\t<span
+        class=\"hide\">City of Toronto website search</span>\r\n\t\t\t\t\t\t\t\t</legend>\r\n\t\t\t\t\t\t\t\t<label
+        for=\"q\" class=\"hide\">Search:</label>\r\n\t\t\t\t\t\t\t\t<div class=\"input-group\">\r\n\t\t\t\t\t\t\t\t\t<input
+        type=\"text\" class=\"form-control\" title=\"Enter your search request\" name=\"q\"
+        id=\"q\" value=\"\" required=\"\">\r\n\t\t\t\t\t\t\t\t\t<span class=\"input-group-btn\">\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t<button
+        class=\"btn btn-default\" type=\"submit\">Search</button>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<input
+        type=\"hidden\" name=\"sort\" value=\"date:D:L:d1\">\r\n\t\t\t\t\t\t\t\t<input
+        type=\"hidden\" name=\"output\" value=\"xml_no_dtd\">\r\n\t\t\t\t\t\t\t\t<input
+        type=\"hidden\" name=\"ie\" value=\"UTF-8\">\r\n\t\t\t\t\t\t\t\t<input type=\"hidden\"
+        name=\"oe\" value=\"UTF-8\">\r\n\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"client\"
+        value=\"Toronto\">\r\n\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"proxystylesheet\"
+        value=\"_common_\">\r\n\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"site\"
+        value=\"TorontoWebsite\">\r\n\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"mss\"
+        value=\"search\">\r\n\t\t\t\t\t\t\t</fieldset>\r\n\t\t\t\t\t\t</form>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div
+        id=\"fontsizer\" class=\"hidden-print hidden-xs hidden-sm col-md-2\">\r\n\t\t\t\t\t
+        \    <div class=\"btn-group\" style=\"margin-left: 5px\">\r\n\t\t\t\t\t         <button
+        id=\"increaseFontSize\" title=\"Increase font size\" type=\"button\" class=\"btn
+        btn-default\" onclick=\"increaseFontSize();\">\r\n\t\t\t\t\t                 <span
+        class=\"glyphicon glyphicon glyphicon-font\"></span>\r\n\t\t\t\t\t                 <span
+        class=\"glyphicon glyphicon-arrow-up\"></span>\r\n\t\t\t\t\t         </button>\r\n\t\t\t\t\t
+        \        <button id=\"decreaseFontSize\" title=\"Decrease font size\" type=\"button\"
+        class=\"btn btn-default\" onclick=\"decreaseFontSize();\">\r\n\t\t\t\t\t                  <span
+        class=\"glyphicon glyphicon glyphicon-font\"></span>\r\n\t\t\t\t\t                  <span
+        class=\"glyphicon glyphicon-arrow-down\"></span>\r\n\t\t\t\t\t         </button>\r\n\t\t\t\t\t
+        \         <button id=\"resetFontSize\" title=\"Reset font size\" type=\"button\"
+        class=\"btn btn-default\" onclick=\"resetFontSize();\">\r\n\t\t\t\t\t                  &nbsp;<span
+        class=\"glyphicon glyphicon glyphicon-refresh\"></span>\r\n\t\t\t\t\t         </button>\r\n\t\t\t\t\t
+        \    </div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>
+        <!-- end blue -->\r\n\t\t<div class=\"grey sitenav hidden-print\">\r\n\t\t\t<div
+        class=\"container\">\r\n\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t<div class=\"navbar-header\">\r\n\t\t\t\t\t\t<button
+        type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#sitenav\">\r\n\t\t\t\t\t\t\t<span
+        class=\"sr-only\">Toggle navigation</span>\r\n\t\t\t\t\t\t\t<span class=\"icon-bar\"></span>\r\n\t\t\t\t\t\t\t<span
+        class=\"icon-bar\"></span>\r\n\t\t\t\t\t\t\t<span class=\"icon-bar\"></span>\r\n\t\t\t\t\t\t</button>\r\n\t\t\t\t\t</div>
+        <!-- end navbar-header -->\r\n\t\t\t\t\t<div class=\"collapse navbar-collapse\"
+        id=\"sitenav\">\r\n\t\t\t\t\t\t<ul class=\"nav nav-tabs nav-justified\">\r\n\r\n\t\t<li
+        class=\"dropdown active\"><a onclick=\"document.location=this.href;\" href=\"/wps/portal/contentonly?vgnextoid=3ea2ba2ae8b1e310VgnVCM10000071d60f89RCRD\"
+        class=\"tab1\" data-toggle=\"dropdown\">Living In Toronto<strong class=\"caret\"></strong></a>\r\n\r\n\t\t\t<ul
+        class=\"dropdown-menu right\">\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href='/wps/portal/contentonly?vgnextoid=a253ba2ae8b1e310VgnVCM10000071d60f89RCRD'>Health</a>\r\n\r\n\t\t\t\t\t<ul
+        class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=a253ba2ae8b1e310VgnVCM10000071d60f89RCRD\">Toronto
+        Public Health</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=df8b3293dc3ef310VgnVCM10000071d60f89RCRD'>Long-Term
+        Care</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='http://torontoparamedicservices.ca/'>Toronto
+        Paramedic Services</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=6e287dbbfd510410VgnVCM10000071d60f89RCRD'>DineSafe</a></li>\r\n\r\n\t\t\t\t\t</ul>
+        <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li
+        class=\"dropdown-submenu\"><a href=\"/wps/portal/contentonly?vgnextoid=fd95ba2ae8b1e310VgnVCM10000071d60f89RCRD\">Environment
+        & Energy</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=a201fbfa98491410VgnVCM10000071d60f89RCRD\">Climate
+        & Energy Goals</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=2b4fb77320991410VgnVCM10000071d60f89RCRD\">Programs
+        for Businesses & Nonprofits</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=8131fbfa98491410VgnVCM10000071d60f89RCRD\">Programs
+        for Residents</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=44a0e211597a1410VgnVCM10000071d60f89RCRD\">Reports,
+        Plans, Policies & Research</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=c9d0fbfa98491410VgnVCM10000071d60f89RCRD\">Greening
+        City Operations</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href='/wps/portal/contentonly?vgnextoid=80c3ba2ae8b1e310VgnVCM10000071d60f89RCRD'>Services</a>\r\n\r\n\t\t\t\t\t<ul
+        class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=80c3ba2ae8b1e310VgnVCM10000071d60f89RCRD\">A-Z
+        listing of services</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=86d3ba2ae8b1e310VgnVCM10000071d60f89RCRD\">311
+        Toronto</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=25cf07ceb6f8e310VgnVCM10000071d60f89RCRD\">Court
+        Services</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=163307ceb6f8e310VgnVCM10000071d60f89RCRD\">Emergency
+        Services</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=7bc3ba2ae8b1e310VgnVCM10000071d60f89RCRD\">Service
+        centre</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=03ec433112b02410VgnVCM10000071d60f89RCRD'>Garbage
+        & Recycling</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=71dc5830a898e310VgnVCM10000071d60f89RCRD\">Water</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=31ceabbf06721410VgnVCM10000071d60f89RCRD\">Engineering
+        & Construction Services</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=0ebe83cf89870410VgnVCM10000071d60f89RCRD\">Employment
+        & Social Services</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=27c4a83b82870410VgnVCM10000071d60f89RCRD\">Municipal
+        Licensing & Standards</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=01b755ab0e9b1410VgnVCM10000071d60f89RCRD\">Revenue
+        Services</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=fddd410becbc1410VgnVCM10000071d60f89RCRD\">Major
+        Capital Infrastructure Coordination</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=75461ba53b450410VgnVCM10000071d60f89RCRD\">Toronto
+        Building</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=ba44ba2ae8b1e310VgnVCM10000071d60f89RCRD\">Your
+        City</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=33f3e03bb8d1e310VgnVCM10000071d60f89RCRD'>Fraud,
+        Waste Hotline</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=d84ae03bb8d1e310VgnVCM10000071d60f89RCRD'>Equity,
+        Diversity and Human Rights</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=4284ba2ae8b1e310VgnVCM10000071d60f89RCRD\">Toronto
+        History</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=bd84ba2ae8b1e310VgnVCM10000071d60f89RCRD\">Toronto
+        Images</a></li>\r\n\r\n\t\t\t\t\t\t<li><a title='' alt='' href='http://www.toronto.ca/legdocs/municode/index.htm'
+        >Municipal Code & bylaws</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=7cb4ba2ae8b1e310VgnVCM10000071d60f89RCRD\">Toronto
+        Archives</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=15dede0230460410VgnVCM10000071d60f89RCRD\">Toronto
+        Maps</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=ae9352cc66061410VgnVCM10000071d60f89RCRD\">City
+        Planning</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=3a18f40f9aae0410VgnVCM10000071d60f89RCRD\">Social
+        Development</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=1e68f40f9aae0410VgnVCM10000071d60f89RCRD\">Demographics</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=57a12cc817453410VgnVCM10000071d60f89RCRD\">Toronto
+        Facts</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=7075bd1172026410VgnVCM10000071d60f89RCRD\">City
+        Auctions</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=4b16ba2ae8b1e310VgnVCM10000071d60f89RCRD\">Grants</a>\r\n\r\n\t\t\t\t\t<ul
+        class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=fde421fd2a9b2410VgnVCM10000071d60f89RCRD\">About</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=04b5ba2ae8b1e310VgnVCM10000071d60f89RCRD'>Toronto
+        Atmospheric Fund</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=fc78f40f9aae0410VgnVCM10000071d60f89RCRD\">Community
+        Funding</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=e2b91ba53b450410VgnVCM10000071d60f89RCRD'>Cultural
+        grants</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='http://www.toronto.ca/livegreen/greenneighbourhood_rebates.htm'>Live
+        Green Toronto</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=5f16946d1d592410VgnVCM10000071d60f89RCRD'>Student
+        Nutrition Program</a></li>\r\n\r\n\t\t\t\t\t\t<li><a target='_blank' href='http://www.torontoartscouncil.org/Grant-programs'>Toronto
+        Arts Council</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=70c752cc66061410VgnVCM10000071d60f89RCRD'>Toronto
+        Heritage Grant Program</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=bebb4074781e1410VgnVCM10000071d60f89RCRD'>StreetARToronto</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=c0aeab2cedfb0410VgnVCM10000071d60f89RCRD'>Homeless
+        Initiative Fund</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=0956ba2ae8b1e310VgnVCM10000071d60f89RCRD\">Awards</a>\r\n\r\n\t\t\t\t\t<ul
+        class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=d766ba2ae8b1e310VgnVCM10000071d60f89RCRD\">Toronto
+        Book Awards</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=d576ba2ae8b1e310VgnVCM10000071d60f89RCRD\">Access,
+        Equity & Human Rights Awards</a></li>\r\n\r\n\t\t\t\t\t\t<li><a title='' alt=''
+        href='http://www.toronto.ca/tuda/index.htm' >Toronto Urban Design Awards</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        title='' alt='' href='http://www.toronto.ca/cycling/bfba/index.htm' >Bicycle
+        Friendly Business Awards</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu
+        -->\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        title='Immigration Portal' alt='Immigration Portal' href='/wps/portal/contentonly?vgnextoid=6fa6ba2ae8b1e310VgnVCM10000071d60f89RCRD'>Immigration
+        Portal</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=6fa6ba2ae8b1e310VgnVCM10000071d60f89RCRD\">Overview</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=4a27ba2ae8b1e310VgnVCM10000071d60f89RCRD\">Before
+        You Arrive</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=0d97ba2ae8b1e310VgnVCM10000071d60f89RCRD\">After
+        You Arrive</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=a48832d0b6d1e310VgnVCM10000071d60f89RCRD\">Living
+        in Toronto</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=b26932d0b6d1e310VgnVCM10000071d60f89RCRD\">Working
+        in Toronto</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=cbd932d0b6d1e310VgnVCM10000071d60f89RCRD\">Learning
+        in Toronto</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=d80e8ed34ce9e310VgnVCM10000071d60f89RCRD\">Children's
+        Services</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=6d3e8ed34ce9e310VgnVCM10000071d60f89RCRD\">Families</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=922e8ed34ce9e310VgnVCM10000071d60f89RCRD\">Operators</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=103e8ed34ce9e310VgnVCM10000071d60f89RCRD\">Planning</a></li>\r\n\r\n\t\t\t\t\t</ul>
+        <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li
+        class=\"dropdown-submenu\"><a href=\"/wps/portal/contentonly?vgnextoid=ecc92271635af310VgnVCM10000071d60f89RCRD\">Arts
+        and Culture</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=412a2271635af310VgnVCM10000071d60f89RCRD\">Arts
+        Services</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=b687b82e5c1ff310VgnVCM10000071d60f89RCRD\">Cultural
+        Partnerships</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=6d1b2271635af310VgnVCM10000071d60f89RCRD\">Museums</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=cfa7b82e5c1ff310VgnVCM10000071d60f89RCRD\">Public
+        Art</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=376a3293dc3ef310VgnVCM10000071d60f89RCRD\">Festivals
+        and Events</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=22da7cc3b5e91410VgnVCM10000071d60f89RCRD\">Special
+        Events Office</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='http://wx.toronto.ca/festevents.nsf/'>Events
+        Calendar</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=897a3293dc3ef310VgnVCM10000071d60f89RCRD'>Toronto
+        Challenge</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=f75b073fd17c1410VgnVCM10000071d60f89RCRD\">Live
+        Green Toronto presents... the Lovin' Local Food Fest!</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=ac4d962c8c3f0410VgnVCM10000071d60f89RCRD\">Indulge</a></li>\r\n\r\n\t\t\t\t\t</ul>
+        <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li
+        class=\"dropdown-submenu\"><a href=\"/wps/portal/contentonly?vgnextoid=5b1619f8602a0410VgnVCM10000071d60f89RCRD\">Parks,
+        Forestry & Recreation</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\" style=\"top:
+        -270px;\">\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=a96adada600f0410VgnVCM10000071d60f89RCRD\">Recreation
+        Programs & Registration</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=5c98dada600f0410VgnVCM10000071d60f89RCRD\">Parks
+        & Trails</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=34e9dada600f0410VgnVCM10000071d60f89RCRD\">Toronto
+        Islands & Ferries</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=470bdada600f0410VgnVCM10000071d60f89RCRD\">Trees
+        & Ravines</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=0a4adada600f0410VgnVCM10000071d60f89RCRD\">Permits
+        & Rentals</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=55d9dada600f0410VgnVCM10000071d60f89RCRD\">Projects
+        & Improvements</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=8e28dada600f0410VgnVCM10000071d60f89RCRD\">Community
+        Involvement</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=830adada600f0410VgnVCM10000071d60f89RCRD\">Partnerships</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=47a15ef39b35d410VgnVCM10000071d60f89RCRD\">60
+        Plus</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=1128dada600f0410VgnVCM10000071d60f89RCRD\">Accessibility</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=4e58dada600f0410VgnVCM10000071d60f89RCRD\">Jobs</a></li>\r\n\r\n\t\t\t\t\t</ul>
+        <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li
+        class=\"dropdown-submenu\"><a href='/wps/portal/contentonly?vgnextoid=c0aeab2cedfb0410VgnVCM10000071d60f89RCRD'>Housing</a>\r\n\r\n\t\t\t\t\t<ul
+        class=\"dropdown-menu\" style=\"top: -27px;\">\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=c0aeab2cedfb0410VgnVCM10000071d60f89RCRD\">Housing
+        & Homelessness Services</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=05d407ceb6f8e310VgnVCM10000071d60f89RCRD\">Affordable
+        Housing</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=006d962c8c3f0410VgnVCM10000071d60f89RCRD\">Sites
+        & Venues</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\" style=\"top: -135px;\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=83574d3dab5f1410VgnVCM10000071d60f89RCRD\">City
+        Hall</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=68f2590dd3412410VgnVCM10000071d60f89RCRD\">Civic
+        Centres</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=ba8d962c8c3f0410VgnVCM10000071d60f89RCRD\">Memorial
+        Hall</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=5ecd962c8c3f0410VgnVCM10000071d60f89RCRD\">Nathan
+        Phillips Square</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=dfacd50749604510VgnVCM10000071d60f89RCRD'>Union
+        Station</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=fc7d962c8c3f0410VgnVCM10000071d60f89RCRD\">Corporate
+        Security</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=e10086195a7c1410VgnVCM10000071d60f89RCRD\">Transportation</a>\r\n\r\n\t\t\t\t\t<ul
+        class=\"dropdown-menu\" style=\"top: -378px;\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=747c4074781e1410VgnVCM10000071d60f89RCRD\">Road
+        Safety</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=cd3d4074781e1410VgnVCM10000071d60f89RCRD\">Winter
+        Maintenance</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=c5e6e69ae554e410VgnVCM10000071d60f89RCRD'>Traffic
+        Conditions and Restrictions</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=9afb4074781e1410VgnVCM10000071d60f89RCRD\">Maintenance
+        and Traffic Management</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=b343970aa08c1410VgnVCM10000071d60f89RCRD\">Cycling</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=d90d4074781e1410VgnVCM10000071d60f89RCRD\">Walking</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=e8ab4074781e1410VgnVCM10000071d60f89RCRD\">Beautiful
+        Streets</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=bebb4074781e1410VgnVCM10000071d60f89RCRD\">StreetARToronto</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=6b8d2412f4422410VgnVCM10000071d60f89RCRD\">Graffiti
+        Management</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=cd4c4074781e1410VgnVCM10000071d60f89RCRD\">Parking
+        Permits</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=378c4074781e1410VgnVCM10000071d60f89RCRD\">Street
+        Events</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=2bdb4074781e1410VgnVCM10000071d60f89RCRD\">Construction
+        Permit Information</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=9a1c4074781e1410VgnVCM10000071d60f89RCRD\">Environmental
+        Achievements</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=f98b551ed95ff410VgnVCM10000071d60f89RCRD\">Big
+        Data Innovation</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=a4894f2106d61510VgnVCM10000071d60f89RCRD\">Accessible
+        Streets</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t</ul> <!-- end dropdown-menu right
+        -->\r\n\r\n\t\t</li> <!-- end 2nd lvl <li> -->\r\n\r\n\t\t<li class=\"dropdown\"><a
+        onclick=\"document.location=this.href;\" href=\"/wps/portal/contentonly?vgnextoid=6c3a32d0b6d1e310VgnVCM10000071d60f89RCRD\"
+        class=\"tab2\" data-toggle=\"dropdown\">Doing Business<strong class=\"caret\"></strong></a>\r\n\r\n\t\t\t<ul
+        class=\"dropdown-menu right\">\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=c40132d0b6d1e310VgnVCM10000071d60f89RCRD\">Invest
+        in Toronto</a>\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li
+        class=\"dropdown-submenu\"><a href=\"/wps/portal/contentonly?vgnextoid=6cd032d0b6d1e310VgnVCM10000071d60f89RCRD\">Start
+        Your Business</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=ed75d559422a3410VgnVCM10000071d60f89RCRD'>Enterprise
+        Toronto</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=252032d0b6d1e310VgnVCM10000071d60f89RCRD\">Operate
+        & Grow Your Business</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=673032d0b6d1e310VgnVCM10000071d60f89RCRD'>Business
+        Improvement Areas</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=401132d0b6d1e310VgnVCM10000071d60f89RCRD\">Key
+        Industry Sectors</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=b03032d0b6d1e310VgnVCM10000071d60f89RCRD\">Consultation
+        & Advocacy</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=6e4032d0b6d1e310VgnVCM10000071d60f89RCRD\">Business
+        incentives</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=e14032d0b6d1e310VgnVCM10000071d60f89RCRD\">Business
+        Opportunities Bulletin Board</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=e15032d0b6d1e310VgnVCM10000071d60f89RCRD\">Industry
+        Training</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=a11f3776c93b2510VgnVCM10000071d60f89RCRD\">Mayor's
+        Business Mission to Asia</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu
+        -->\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=99ef32d0b6d1e310VgnVCM10000071d60f89RCRD\">Reports
+        & Data Centre</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=1c0032d0b6d1e310VgnVCM10000071d60f89RCRD\">Publications
+        & Reports</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=e71032d0b6d1e310VgnVCM10000071d60f89RCRD\">Data
+        centre</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=f30fd0643932e310VgnVCM10000071d60f89RCRD\">Economic
+        Indicators</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=688032d0b6d1e310VgnVCM10000071d60f89RCRD\">Do
+        Business with the City</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=a718dc54c5801410VgnVCM10000071d60f89RCRD\">Purchasing
+        & Materials Management Division</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=c39032d0b6d1e310VgnVCM10000071d60f89RCRD\">Vendor
+        Registration System</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=3da8dc54c5801410VgnVCM10000071d60f89RCRD'>Call
+        Process & Call Documents</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=c6b032d0b6d1e310VgnVCM10000071d60f89RCRD\">Competitive
+        Call Awards & Sole Source Contracts</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=cbdddc54c5801410VgnVCM10000071d60f89RCRD\">Fair
+        Wage Office</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=9aac8ed34ce9e310VgnVCM10000071d60f89RCRD\">Partner
+        with the City</a>\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li
+        class=\"dropdown-submenu\"><a href='/wps/portal/contentonly?vgnextoid=c3e0d08099380410VgnVCM10000071d60f89RCRD'>Plan
+        an Event</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=c3e0d08099380410VgnVCM10000071d60f89RCRD\">Event
+        Planning Guide</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=cea77d353c460410VgnVCM10000071d60f89RCRD\">Event
+        Sites</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=03e41158f7360410VgnVCM10000071d60f89RCRD\">Event
+        Support</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href='/wps/portal/contentonly?vgnextoid=4ee01b261582e310VgnVCM10000071d60f89RCRD'>Film
+        in Toronto</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=4ee01b261582e310VgnVCM10000071d60f89RCRD\">Overview</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=a36132d0b6d1e310VgnVCM10000071d60f89RCRD\">Why
+        film in Toronto</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=463132d0b6d1e310VgnVCM10000071d60f89RCRD\">Film
+        permits</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=cc4132d0b6d1e310VgnVCM10000071d60f89RCRD\">Planning
+        and guidelines</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=585132d0b6d1e310VgnVCM10000071d60f89RCRD\">Resources</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=314132d0b6d1e310VgnVCM10000071d60f89RCRD\">Information
+        for residents</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=f635ca7908040410VgnVCM10000071d60f89RCRD\">Made
+        here. Seen everywhere.</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu
+        -->\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t</ul> <!--
+        end dropdown-menu right -->\r\n\r\n\t\t</li> <!-- end 2nd lvl <li> -->\r\n\r\n\t\t<li
+        class=\"dropdown\"><a onclick=\"document.location=this.href;\" href=\"/wps/portal/contentonly?vgnextoid=3a7132d0b6d1e310VgnVCM10000071d60f89RCRD\"
+        class=\"tab3\" data-toggle=\"dropdown\">Visiting Toronto<strong class=\"caret\"></strong></a>\r\n\r\n\t\t\t<ul
+        class=\"dropdown-menu left\">\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        title='' alt='' href='http://www.toronto.ca/toronto_history/index.htm' >Toronto
+        History</a>\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li
+        class=\"dropdown-submenu\"><a title='' alt='' href='http://www.toronto.ca/toronto_facts/index.htm'
+        >Toronto Facts</a>\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li
+        class=\"dropdown-submenu\"><a href='/wps/portal/contentonly?vgnextoid=bd84ba2ae8b1e310VgnVCM10000071d60f89RCRD'>Toronto
+        Images</a>\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li
+        class=\"dropdown-submenu\"><a href='/wps/portal/contentonly?vgnextoid=06508b7a29891410VgnVCM10000071d60f89RCRD'>Attractions</a>\r\n\r\n\t\t\t\t\t<ul
+        class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a title='' alt='' href='http://wx.toronto.ca/festevents.nsf/'
+        >Festivals & events calendar</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=06508b7a29891410VgnVCM10000071d60f89RCRD'>Attraction
+        highlights</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=8c3b7cc3b5e91410VgnVCM10000071d60f89RCRD'>Doors
+        Open</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=22da7cc3b5e91410VgnVCM10000071d60f89RCRD'>Special
+        Events</a></li>\r\n\r\n\t\t\t\t\t\t<li><a title='' alt='' href='http://www.livewithculture.ca/'
+        >Live With Culture</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=5b1619f8602a0410VgnVCM10000071d60f89RCRD'>Parks
+        and recreation</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=ecc92271635af310VgnVCM10000071d60f89RCRD'>Arts
+        and culture</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href='/wps/portal/contentonly?vgnextoid=04708b7a29891410VgnVCM10000071d60f89RCRD'>Getting
+        Around</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href='http://www.ttc.ca' >Toronto Transit Commission</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=88ac4074781e1410VgnVCM10000071d60f89RCRD'>Traffic
+        cameras</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=15dede0230460410VgnVCM10000071d60f89RCRD'>Toronto
+        Maps</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=cd4c4074781e1410VgnVCM10000071d60f89RCRD'>Parking</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=0c9c4074781e1410VgnVCM10000071d60f89RCRD'>Road
+        restrictions</a></li>\r\n\r\n\t\t\t\t\t\t<li><a title='' alt='' href='http://www.gotransit.com/'
+        >GO Transit</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=34e9dada600f0410VgnVCM10000071d60f89RCRD'>Toronto
+        Island Ferry</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=b343970aa08c1410VgnVCM10000071d60f89RCRD'>Cycling</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=f537b454b35a2410VgnVCM10000071d60f89RCRD&amp;vgnextchannel=04708b7a29891410VgnVCM10000071d60f89RCRD'>PATH
+        - downtown walkway</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu
+        -->\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=23408b7a29891410VgnVCM10000071d60f89RCRD\">Visitor
+        Information Services</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=04708b7a29891410VgnVCM10000071d60f89RCRD\">Getting
+        Here & Around</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=06508b7a29891410VgnVCM10000071d60f89RCRD\">Things
+        to Do</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=71c08b7a29891410VgnVCM10000071d60f89RCRD\">Information
+        Centres</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=8fa08b7a29891410VgnVCM10000071d60f89RCRD\">TAP
+        into TO!</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t</ul> <!-- end dropdown-menu right
+        -->\r\n\r\n\t\t</li> <!-- end 2nd lvl <li> -->\r\n\r\n\t\t<li class=\"dropdown\"><a
+        onclick=\"document.location=this.href;\" href=\"/wps/portal/contentonly?vgnextoid=f81aa9a59754c310VgnVCM1000006cd60f89RCRD\"
+        class=\"tab4\" data-toggle=\"dropdown\">Accessing City Hall<strong class=\"caret\"></strong></a>\r\n\r\n\t\t\t<ul
+        class=\"dropdown-menu left\">\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href='http://app.toronto.ca/tmmis/index.do' >City Council</a>\r\n\r\n\t\t\t\t\t<ul
+        class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=eb5664ff82f31510VgnVCM10000071d60f89RCRD'>Office
+        of the Mayor</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=c3a83293dc3ef310VgnVCM10000071d60f89RCRD'>Council
+        Members</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='http://app.toronto.ca/tmmis/index.do'>Link
+        to Meetings (TMMIS)</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=11320b3410c90410VgnVCM10000071d60f89RCRD'>Expenses
+        & Policies</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href='/wps/portal/contentonly?vgnextoid=2e8732d0b6d1e310VgnVCM10000071d60f89RCRD'>Administrative
+        structure</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=56f632d0b6d1e310VgnVCM10000071d60f89RCRD'>City
+        Manager's Office</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=2e8732d0b6d1e310VgnVCM10000071d60f89RCRD\">City
+        divisions</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='http://www1.toronto.ca/divisions/pdf/org_chart.pdf'>Organization
+        chart</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=1093e03bb8d1e310VgnVCM10000071d60f89RCRD\">Contact
+        the City</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=f6a3e03bb8d1e310VgnVCM10000071d60f89RCRD\">Accountability
+        Officers</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=00c3e03bb8d1e310VgnVCM10000071d60f89RCRD'>Auditor
+        General</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=e64f40efd8f30410VgnVCM10000071d60f89RCRD'>Integrity
+        Commissioner</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=cf1fb7537e35f310VgnVCM10000071d60f89RCRD\">Lobbyist
+        Registrar</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='http://ombudstoronto.ca/'>Ombudsman</a></li>\r\n\r\n\t\t\t\t\t</ul>
+        <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li
+        class=\"dropdown-submenu\"><a href=\"/wps/portal/contentonly?vgnextoid=84a7e03bb8d1e310VgnVCM10000071d60f89RCRD\">Newsroom</a>\r\n\r\n\t\t\t\t\t<ul
+        class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=4fa7e03bb8d1e310VgnVCM10000071d60f89RCRD\">Council
+        Highlights</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=64066a57c8eda410VgnVCM10000071d60f89RCRD\">Media
+        Contacts</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=d712c36902f5d310VgnVCM1000006cd60f89RCRD\">Elections</a>\r\n\r\n\t\t\t\t\t<ul
+        class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=d712c36902f5d310VgnVCM1000006cd60f89RCRD'>Home</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=8222c36902f5d310VgnVCM1000006cd60f89RCRD\">Voters</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=6f22c36902f5d310VgnVCM1000006cd60f89RCRD\">Candidates</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=c962c36902f5d310VgnVCM1000006cd60f89RCRD\">Employment</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=3e52c36902f5d310VgnVCM1000006cd60f89RCRD\">Library</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=a482c36902f5d310VgnVCM1000006cd60f89RCRD\">Education</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=a572c36902f5d310VgnVCM1000006cd60f89RCRD\">Accessibility</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=21193fab14970410VgnVCM10000071d60f89RCRD\">By-Elections</a></li>\r\n\r\n\t\t\t\t\t</ul>
+        <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li
+        class=\"dropdown-submenu\"><a title='' alt='' href='http://www.toronto.ca/services/index.htm'
+        >Government Services</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=f25c5830a898e310VgnVCM10000071d60f89RCRD\">Legal
+        Services</a></li>\r\n\r\n\t\t\t\t\t\t<li><a title='' alt='' href='http://www.toronto.ca/services/servicecentre.htm'
+        >Service centre</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=9e56e03bb8d1e310VgnVCM10000071d60f89RCRD\">Open
+        Data</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD\">Data
+        catalogue</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=052c2d9ae1d81510VgnVCM10000071d60f89RCRD\">Tools
+        and Help</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=4a37e03bb8d1e310VgnVCM10000071d60f89RCRD\">Licence</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=7e27e03bb8d1e310VgnVCM10000071d60f89RCRD\">Policy</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=3647e03bb8d1e310VgnVCM10000071d60f89RCRD\">Frequently
+        asked questions</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=4257e03bb8d1e310VgnVCM10000071d60f89RCRD\">Glossary
+        of terms</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=7e57e03bb8d1e310VgnVCM10000071d60f89RCRD\">Gallery</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=8087e03bb8d1e310VgnVCM10000071d60f89RCRD\">Data
+        eh?</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href='/wps/portal/contentonly?vgnextoid=3426ea64460b3410VgnVCM10000071d60f89RCRD'>Agencies
+        and Corporations</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=56e88ae46aa44410VgnVCM10000071d60f89RCRD'>Directory
+        of Agencies and Corporations</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='https://secure.toronto.ca/pa/home.do'>Appointments
+        process</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=9287c6745c0b3410VgnVCM10000071d60f89RCRD&amp;vgnextchannel=3426ea64460b3410VgnVCM10000071d60f89RCRD'>Relationship
+        frameworks</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=a7b78b206f2ef310VgnVCM10000071d60f89RCRD\">City
+        Clerk's Office</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=ba5351db3e731410VgnVCM10000071d60f89RCRD\">Accessing
+        City Information</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=7cb4ba2ae8b1e310VgnVCM10000071d60f89RCRD'>Archives</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=63f78b206f2ef310VgnVCM10000071d60f89RCRD'>Assessment
+        rolls</a></li>\r\n\r\n\t\t\t\t\t\t<li><a target='_blank' href='http://www.toronto.ca/legdocs/bylaws/lawhome.htm'>By-laws
+        & Municipal Code</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=594a92fa98b00410VgnVCM10000071d60f89RCRD'>Commissioners
+        for City business</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=d712c36902f5d310VgnVCM1000006cd60f89RCRD'>Elections</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=3e5a92fa98b00410VgnVCM10000071d60f89RCRD'>Liquor
+        licence clearance</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=4db78b206f2ef310VgnVCM10000071d60f89RCRD\">Lottery
+        Licences</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=94cefe581b7ff310VgnVCM10000071d60f89RCRD'>Marriage
+        services</a></li>\r\n\r\n\t\t\t\t\t\t<li><a target='_blank' href='http://app.toronto.ca/tmmis/index.do'>Meetings,
+        agendas & minutes</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=01b4b96fa9811410VgnVCM10000071d60f89RCRD\">Proclamations</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=043fedb13331b410VgnVCM10000071d60f89RCRD'>Polling</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=62264a1646891410VgnVCM10000071d60f89RCRD\">Protocol
+        Services</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=889300ad867a0410VgnVCM10000071d60f89RCRD\">Public
+        Appointments</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=f6a300ad867a0410VgnVCM10000071d60f89RCRD\">Public
+        Notices</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=c6ea285441f71410VgnVCM10000071d60f89RCRD\">City
+        Finances</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=b43b285441f71410VgnVCM10000071d60f89RCRD\">Reports
+        and Statements</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=dafa285441f71410VgnVCM10000071d60f89RCRD\">Claims</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=e52b285441f71410VgnVCM10000071d60f89RCRD\">Long
+        Term Plans</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=b27b285441f71410VgnVCM10000071d60f89RCRD\">Property
+        Tax Policy</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=a90b285441f71410VgnVCM10000071d60f89RCRD\">Development
+        Charges</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=571b285441f71410VgnVCM10000071d60f89RCRD\">Investment</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=ace3c1b8c8412410VgnVCM10000071d60f89RCRD\">Capital
+        financing</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=e560f459354b0510VgnVCM10000071d60f89RCRD'>City
+        Budget</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=4546e03bb8d1e310VgnVCM10000071d60f89RCRD\">Previous
+        Budgets</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=0791a6a3accc1410VgnVCM10000071d60f89RCRD\">Connect
+        with Your City</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\" style=\"top:
+        -162px;\">\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=aea3a6a3accc1410VgnVCM10000071d60f89RCRD\">E-updates</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=50e41a4acc6e1410VgnVCM10000071d60f89RCRD\">Social
+        Media</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=e7631a4acc6e1410VgnVCM10000071d60f89RCRD\">RSS
+        Feeds</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=d8a1a6a3accc1410VgnVCM10000071d60f89RCRD\">City
+        Update</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=ed73a6a3accc1410VgnVCM10000071d60f89RCRD\">Podcasts</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=0aa6a07443f36410VgnVCM10000071d60f89RCRD\">Complaints</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=cf00b9d33ccb5410VgnVCM10000071d60f89RCRD\">Customer
+        Service Standards</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=e7f435d4f0721410VgnVCM10000071d60f89RCRD\">Get
+        Involved</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\" style=\"top: -108px;\">\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=e869875fd913e410VgnVCM10000071d60f89RCRD'>Consultations</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=9632acb640c21410VgnVCM10000071d60f89RCRD\">Learning
+        Guides</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=023535d4f0721410VgnVCM10000071d60f89RCRD\">Infrastructure
+        Projects</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=9642acb640c21410VgnVCM10000071d60f89RCRD\">Understanding
+        Your City</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=a2386eabb565c410VgnVCM10000071d60f89RCRD'>Participatory
+        Budgeting</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=363632d0b6d1e310VgnVCM10000071d60f89RCRD\">City
+        initiatives</a>\r\n\r\n\t\t\t\t\t<ul class=\"dropdown-menu\" style=\"top:
+        -189px;\">\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=102d30787e87b410VgnVCM10000071d60f89RCRD\">Mayor's
+        Task Force on Toronto Community Housing</a></li>\r\n\r\n\t\t\t\t\t\t<li><a
+        href='/wps/portal/contentonly?vgnextoid=c90dbdedeffbf310VgnVCM10000071d60f89RCRD'>Toronto
+        Progress Portal</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=8c48e26b1af51410VgnVCM10000071d60f89RCRD'>Waterfront
+        Renewal</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=fcb60621f3161410VgnVCM10000071d60f89RCRD&amp;vgnextchannel=8e6552cc66061410VgnVCM10000071d60f89RCRD'>Official
+        Plan</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=e52b285441f71410VgnVCM10000071d60f89RCRD'>Toronto's
+        Long Term Fiscal Plan</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=78d6d0057d48f410VgnVCM10000071d60f89RCRD\">Web
+        Revitalization Project</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=03ec433112b02410VgnVCM10000071d60f89RCRD'>Long
+        Term Waste Management Strategy</a></li>\r\n\r\n\t\t\t\t\t\t<li><a href='/wps/portal/contentonly?vgnextoid=f50e962c8c3f0410VgnVCM10000071d60f89RCRD'>Union
+        Station</a></li>\r\n\r\n\t\t\t\t\t</ul> <!-- end dropdown-menu -->\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=8fd7e03bb8d1e310VgnVCM10000071d60f89RCRD\">Accessibility</a>\r\n\r\n\t\t\t\t</li>
+        <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t\t<li class=\"dropdown-submenu\"><a
+        href=\"/wps/portal/contentonly?vgnextoid=4550b9ca56ccf410VgnVCM10000071d60f89RCRD\">Open
+        Government</a>\r\n\r\n\t\t\t\t</li> <!-- end 3rd lvl <li> -->\r\n\r\n\t\t\t</ul>
+        <!-- end dropdown-menu right -->\r\n\r\n\t\t</li> <!-- end 2nd lvl <li> -->\r\n\r\n\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t</div>
+        <!-- end collapse navbar-collapse -->\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>
+        <!-- end grey sitenav -->\r\n\t</nav>\r\n</section>\r\n\r\n<!-- P:top-navigation.jsp||ET:2016-04-22
+        15:50:26.345||T:402 -->\r\n\r\n<!-- end of top-navigation.jsp -->\r\n</div><div>\r\n\r\n<!--
+        start of breadcrumb.jsp -->\r\n<section class=\"container\">\r\n\t<div id=\"r2\"
+        class=\"row\">\r\n\t\t<div class=\"col-xs-12 hidden-xs hidden-print\">\r\n\t\t\t<div
+        id=\"breadcrumb-bar\">\r\n\t\t\t\t<ol class=\"breadcrumb\" role=\"navigation\"
+        aria-label=\"breadcrumbs\">\r\n\r\n<!-- P:breadcrumb.jsp||ST:2016-04-22 15:55:45.335
+        -->\r\n\r\n\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=8e79f9be8db1c310VgnVCM1000006cd60f89RCRD\"><span
+        class=\"glyphicon glyphicon-home\" style=\"margin-right: 5px;\"></span>City
+        of Toronto</a></li>\r\n\r\n\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=3ea2ba2ae8b1e310VgnVCM10000071d60f89RCRD\"
+        class=\"short\">&hellip;</a></li>\r\n\r\n\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=5b1619f8602a0410VgnVCM10000071d60f89RCRD\">Parks,
+        Forestry & Recreation</a></li>\r\n\r\n\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=a96adada600f0410VgnVCM10000071d60f89RCRD\">Recreation
+        Programs & Registration</a></li><li class=\"active\">Free & Low Cost Options
+        for Recreation Programs</li>\r\n\r\n\t\t\t\t</ol>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>\r\n</section>\r\n\r\n<!--
+        P:breadcrumb.jsp||ET:2016-04-22 15:55:45.338||T:3 -->\r\n\r\n<!-- end of breadcrumb.jsp
+        -->\r\n</div>\r\n<!-- R:defaultRegionLayout.jsp||ET:2016-04-22 15:55:45.339||T:1
+        -->\r\n</div>\r\n       \t</div>\r\n\t\t<div class=\"container\">\r\n\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t<div class=\"r3 hidden-print col-xs-12 col-sm-3
+        region\">\r\n\t\t\t\t\t<div>\r\n<!-- R:defaultRegionLayout.jsp||ST:2016-04-22
+        15:55:45.352 -->\r\n<div>\r\n\r\n<!-- start of left-navigation.jsp -->\r\n\r\n<!--
+        P:left-navigation.jsp||ST:2016-04-22 15:55:45.342 -->\r\n\t\t\r\n\t\t<nav
+        class=\"media leftnav navbar navbar-default\" role=\"navigation\">\r\n\t\t<div
+        class=\"navbar-header\">\r\n\t\t\t<button type=\"button\" class=\"navbar-toggle\"
+        data-toggle=\"collapse\" data-target=\"#cot-leftnavbar-collapse\">\r\n\t\t\t\t<span
+        class=\"sr-only\">Toggle navigation</span>\r\n\t\t\t\t<span class=\"icon-bar\"></span>\r\n\t\t\t\t<span
+        class=\"icon-bar\"></span>\r\n\t\t\t\t<span class=\"icon-bar\"></span>\r\n\t\t\t</button>\r\n\t\t\t<span
+        class=\"navbar-brand visible-xs\">Page Menu</span>\r\n\t\t</div>\r\n\t\t<div
+        class=\"collapse navbar-collapse\" id=\"cot-leftnavbar-collapse\">\t\r\n\t\t<ul
+        class=\"nav nav-pills nav-stacked\">\r\n\r\n\t\t<li class=\"header\">\r\n\r\n\t\t<a
+        href=\"/wps/portal/contentonly?vgnextoid=5b1619f8602a0410VgnVCM10000071d60f89RCRD\"
+        title=\"Parks, Forestry & Recreation\"><h2>Parks, Forestry & Recreation</h2></a>\r\n\t\t</li>\r\n\t\t\t\r\n\t\t\t<li
+        class=\"active\"><a href=\"/wps/portal/contentonly?vgnextoid=a96adada600f0410VgnVCM10000071d60f89RCRD\"><span
+        class=\"sr-only\">You are on: </span>Recreation Programs & Registration</a></li>\r\n\r\n\t\t\t\t<ul
+        class=\"nav nav-pills nav-stacked indent\">\r\n\r\n\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=04badada600f0410VgnVCM10000071d60f89RCRD\">Registration</a></li>\r\n\r\n\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=087adada600f0410VgnVCM10000071d60f89RCRD\">Arts</a></li>\r\n\r\n\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=a68adada600f0410VgnVCM10000071d60f89RCRD\">Camps</a></li>\r\n\r\n\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=859adada600f0410VgnVCM10000071d60f89RCRD\">Fitness</a></li>\r\n\r\n\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=a4aadada600f0410VgnVCM10000071d60f89RCRD\">General
+        Interest</a></li>\r\n\r\n\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=a3cadada600f0410VgnVCM10000071d60f89RCRD\">Skating
+        & Rinks</a></li>\r\n\r\n\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=17dadada600f0410VgnVCM10000071d60f89RCRD\">Skiing
+        & Snowboarding</a></li>\r\n\r\n\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=77eadada600f0410VgnVCM10000071d60f89RCRD\">Sports</a></li>\r\n\r\n\t\t\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=d7fadada600f0410VgnVCM10000071d60f89RCRD\">Swimming
+        & Pools</a></li>\r\n\r\n\t\t\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=e54cbed44c651410VgnVCM10000071d60f89RCRD\">Recreation
+        Facilities</a></li>\r\n\r\n\t\t\t\t</ul>\r\n\t\t\t\r\n\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=5c98dada600f0410VgnVCM10000071d60f89RCRD\">Parks
+        & Trails</a></li>\r\n\t\t\t\r\n\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=34e9dada600f0410VgnVCM10000071d60f89RCRD\">Toronto
+        Islands & Ferries</a></li>\r\n\t\t\t\r\n\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=470bdada600f0410VgnVCM10000071d60f89RCRD\">Trees
+        & Ravines</a></li>\r\n\t\t\t\r\n\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=0a4adada600f0410VgnVCM10000071d60f89RCRD\">Permits
+        & Rentals</a></li>\r\n\t\t\t\r\n\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=55d9dada600f0410VgnVCM10000071d60f89RCRD\">Projects
+        & Improvements</a></li>\r\n\t\t\t\r\n\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=8e28dada600f0410VgnVCM10000071d60f89RCRD\">Community
+        Involvement</a></li>\r\n\t\t\t\r\n\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=830adada600f0410VgnVCM10000071d60f89RCRD\">Partnerships</a></li>\r\n\t\t\t\r\n\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=47a15ef39b35d410VgnVCM10000071d60f89RCRD\">60
+        Plus</a></li>\r\n\t\t\t\r\n\t\t\t<li><a href=\"/wps/portal/contentonly?vgnextoid=1128dada600f0410VgnVCM10000071d60f89RCRD\">Accessibility</a></li>\r\n\t\t\t\r\n\t\t\t<li><a
+        href=\"/wps/portal/contentonly?vgnextoid=4e58dada600f0410VgnVCM10000071d60f89RCRD\">Jobs</a></li>\r\n\r\n\t</ul>\r\n\t</div>\r\n</nav>\r\n\r\n<!--
+        P:left-navigation.jsp||ET:2016-04-22 15:55:45.351||T:9 -->\r\n\r\n<!-- end
+        of left-navigation.jsp -->\r\n</div>\r\n<!-- R:defaultRegionLayout.jsp||ET:2016-04-22
+        15:55:45.352||T:0 -->\r\n</div>\r\n\t\t\t\t</div>\r\n\t\t  \t\t<main role=\"main\"
+        id=\"maincontent\" class=\"col-xs-12 col-sm-9\">\r\n\t\t \t\t\t<div class=\"row\">\r\n\t\t
+        \t\t\t\t<div class=\"r5 col-xs-12 col-sm-12 region\">\r\n\t\t \t\t\t\t\t<div>\r\n<!--
+        R:defaultRegionLayout.jsp||ST:2016-04-22 15:55:45.379 -->\r\n<div>\r\n\r\n<!--
+        start of page-detail-title.jsp (green field) -->\r\n\r\n<!-- P:page-section-title-style-1.jsp||ST:2016-04-22
+        15:17:55.500 -->\r\n\r\n<section>\r\n<div class='contextTitle'>\r\n\t<div
+        class='row'>\r\n\t\t<div class='col-xs-8 col-sm-10'>\r\n\t\t\t<h2>Recreation
+        Programs & Registration\n</h2>\r\n\t\t</div>\r\n\t\t\r\n\t\t<!-- AddThis Button
+        BEGIN -->\r\n\t\t<div class=\"col-xs-4 col-sm-2 addthis_toolbox text-right
+        hidden-print\">\r\n\t\t    <a class=\"addthis_counter addthis_pill_style\"></a>\r\n\t\t</div>\r\n\t\t<script
+        \ type=\"text/javascript\">\r\n\t\t    var addthis_config = {\r\n\t\t        \"data_track_clickback\":true,\r\n\t\t
+        \       ui_508_compliant: true,    \r\n\t\t        ui_click: true\r\n\t\t
+        \       };\r\n\t\t</script>\r\n\t\t<script type=\"text/javascript\" src=\"http://s7.addthis.com/js/250/addthis_widget.js#pubid=cityoftoronto\"></script>\r\n\t\t<!--
+        AddThis Button END -->\r\n\t\t\r\n\t</div>\r\n</div>\r\n<script  type=\"text/javascript\">\r\n\tvar
+        addthis_config = {\r\n\t\t\"data_track_clickback\":true,\r\n\t\tui_508_compliant:
+        true,    \r\n\t\tui_click: true\r\n\t};\r\n</script>\r\n<script type=\"text/javascript\"
+        src=\"http://s7.addthis.com/js/250/addthis_widget.js#pubid=cityoftoronto\"></script>\r\n</section>\r\n\r\n\r\n<!--
+        P:page-detail-title.jsp||ET:2016-04-22 15:17:55.501||T:1 -->\r\n\r\n<!-- end
+        of page-detail-title.jsp --></div>\r\n<!-- R:defaultRegionLayout.jsp||ET:2016-04-22
+        15:55:45.380||T:1 -->\r\n</div>\r\n\t\t \t\t\t\t</div>\r\n\t\t \t\t\t</div>\r\n\t\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\t<div class=\"r6 col-xs-12 col-sm-12 col-md-8
+        region\">\r\n\t\t\t\t\t\t\t<div>\r\n<!-- R:defaultRegionLayout.jsp||ST:2016-04-22
+        15:55:45.356 -->\r\n<div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\r\n\t\t\r\n\t\t\r\n\r\n\t\r\n<!--
+        P:article-detail.jsp||ST:2016-04-22 15:17:53.767 -->\r\n<!--\nRequested Object
+        - aaafdada600f0410VgnVCM10000071d60f89RCRD\nRequested Channel - a96adada600f0410VgnVCM10000071d60f89RCRD\nRequested
+        Site - 4189f9be8db1c310VgnVCM1000006cd60f89RCRD\nContent Component - 0f1c371bc8c1d310VgnVCM10000067d60f89RCRD\nFormat
+        - default\nLength of etlContent - 9166\n-->\n<!--\nLength of cpsContent -
+        9138\n-->\n\r\n\r\n<section id=\"compid_ce1c371bc8c1d310VgnVCM10000067d60f89____\">\r\n\t\t<article
+        class=\"media articleDetail\">\r\n\t\t\t<header>\r\n\t\t\t\t<h1>\r\n\t\t\t\t\t\r\n\t\t\t\t\t\tFree
+        & Low Cost Options for Recreation Programs\r\n\t\t\t\t\t\r\n\t\t\t\t</h1>\r\n\t\t\t</header>\r\n\t\t\t<p>The
+        City of Toronto is committed to increasing access to recreation by offering
+        Free drop-in Programs, Community Centres Where Programs are Free, Yearly Credits
+        and Older Adult Discounts.</p>\n<p><a name=\"top\"></a></p>\n<ul>\n<li><a
+        href=\"#location\">Locations of Community Centres Where Programs are Free</a></li>\n<li><a
+        href=\"#faq\">Frequently Asked Questions</a></li>\n</ul>\n<h3>Free Drop-in
+        Programs</h3>\n<p>Many community centres offer free recreation drop-in programs
+        including <a href=\"/parks/prd/swimming/dropin/leisure/index.htm\">leisure
+        swimming</a> and <a href=\"/parks/prd/skating/dropin/leisure/index.htm\">skating</a>
+        and drop-in programs for children, youth and older adults.</p>\n<h3>Yearly
+        Credit (Welcome Policy)</h3>\n<p><a href=\"/wps/portal/contentonly?vgnextoid=a048a4bd35341410VgnVCM10000071d60f89RCRD\">A
+        yearly credit</a> is available to residents with low-incomes that can be used
+        to register for any City recreation program.</p>\n<p>Anyone receiving social
+        assistance (Ontario Works) and living in Toronto is pre-approved to receive
+        this credit - talk to <a target=\"_blank\" href=\"http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=a5c3d08099380410VgnVCM10000071d60f89RCRD\">your
+        caseworker</a>.</p>\n<p>To learn more about eligibility for this credit (called
+        the Welcome Policy), talk to Parks, Forestry and Recreation staff at a community
+        centre, visit <a href=\"/wps/portal/contentonly?vgnextoid=a048a4bd35341410VgnVCM10000071d60f89RCRD\">toronto.ca/wp</a>
+        or call 311.</p>\n<h3>Older Adult Discounts</h3>\n<p>Adults 60 plus years
+        who register for adult programs receive a 50% discount. For more information,
+        please contact a customer service representative at 416 338-4386.</p>\n<h3><a
+        name=\"location\"></a>Centres Where Programs Are Free (formerly known as Priority
+        Centres)</h3>\n<h3>Etobicoke York District</h3>\n<p></p>\n<ul>\n<li><a href=\"/parks/prd/facilities/complex/486/index.htm\">Chalkfarm
+        Community Centre</a> (180 Chalkfarm Drive)</li>\n<li><a href=\"/parks/prd/facilities/complex/750/index.htm\">Elmbank
+        Community Centre</a> (10 Rampart Road)</li>\n<li><a href=\"/parks/prd/facilities/complex/1186/index.htm\">Emery
+        Collegiate Secondary School</a> (3395 Weston Road)</li>\n<li><a href=\"/parks/prd/facilities/complex/1063/index.htm\">Falstaff
+        Community Recreation Centre</a> (50 Falstaff Avenue)</li>\n<li><a href=\"/parks/prd/facilities/complex/1236/index.htm\">John
+        English Community School</a> (95 Mimico Avenue Rm 100B)</li>\n<li><a href=\"/parks/prd/facilities/complex/1232/index.htm\">Islington
+        Community School</a> (44 Cordova Avenue)</li>\n<li><a href=\"/parks/prd/facilities/complex/1244/index.htm\">Kingsview
+        Village Community School</a> (1 York Road)</li>\n<li><a href=\"/parks/prd/facilities/complex/749/index.htm\">North
+        Kipling Community Centre</a> (2 Rowntree Road)</li>\n<li>Rockcliffe Middle
+        School (400 Rockcliffe Boulevard)</li>\n<li><a href=\"/parks/prd/facilities/complex/795/index.htm\">The
+        Elms Community School</a> (45 Golfdown Drive)</li>\n<li>York Community Centre
+        (115 Black Creek Drive) *Opening in 2016</li>\n</ul>\n<p></p>\n<h3>North York
+        District</h3>\n<p></p>\n<ul>\n<li><a href=\"/parks/prd/facilities/complex/42/index.htm\">Antibes
+        Community Centre</a> (140 Antibes Drive)</li>\n<li><a href=\"/parks/prd/facilities/complex/1056/index.htm\">Dennis
+        R. Timbrell Recreation Centre</a> (29 St. Dennis Drive)</li>\n<li><a href=\"/parks/prd/facilities/complex/575/index.htm\">Driftwood
+        Community Recreation Centre</a> (4401 Jane Street)</li>\n<li><a href=\"/parks/prd/facilities/complex/647/index.htm\">Grandravine
+        Community Centre</a> (23 Grandravine Drive)</li>\n<li><a href=\"/parks/prd/facilities/complex/1076/index.htm\">Jenner
+        Jean-Marie Community Centre</a> (48 Thorncliffe Park Drive)</li>\n<li><a href=\"/parks/prd/facilities/complex/675/index.htm\">Lawrence
+        Heights Community Recreation Centre</a> (5 Replin Road)</li>\n<li><a href=\"/parks/prd/facilities/complex/780/index.htm\">Oakdale
+        Community Centre</a> (350 Grandravine Drive)</li>\n<li><a href=\"/parks/prd/facilities/complex/1093/index.htm\">O'Connor
+        Community Recreation Centre</a> (1386 Victoria Park Avenue)</li>\n<li><a href=\"/parks/prd/facilities/complex/714/index.htm\">Oriole
+        Community Centre</a> (2975 Don Mills Road)</li>\n</ul>\n<p></p>\n<h3>Scarborough
+        District</h3>\n<p></p>\n<ul>\n<li><a href=\"/parks/prd/facilities/complex/600/index.htm\">Cedarbrook
+        Community Centre</a> (91 Eastpark Boulevard)</li>\n<li><a href=\"/parks/prd/facilities/complex/537/index.htm\">Centennial
+        Recreation Centre</a> (1967 Ellesmere Road)</li>\n<li><a href=\"/parks/prd/facilities/complex/712/index.htm\">Don
+        Montgomery Community Recreation Centre</a> (2467 Eglinton Avenue East)</li>\n<li><a
+        href=\"/parks/prd/facilities/complex/633/index.htm\">Heron Park Recreation
+        Centre</a> (292 Manse Road)</li>\n<li><a href=\"/parks/prd/facilities/complex/788/index.htm\">L'Amoreaux
+        Community Recreation Centre</a> (2000 McNicholl Avenue)</li>\n<li><a href=\"/parks/prd/facilities/complex/702/index.htm\">Malvern
+        Recreation Centre</a> (30 Sewells Road)</li>\n<li><a href=\"/parks/prd/facilities/complex/731/index.htm\">Oakridge
+        Community Centre</a> (63 Pharmacy Avenue)</li>\n<li><a href=\"/parks/prd/facilities/complex/743/index.htm\">Scarborough
+        Village Recreation Centre</a> (3600 Kingston Road)</li>\n<li><a href=\"/parks/prd/facilities/complex/1105/index.htm\">Stephen
+        Leacock Community Recreation Centre/Community Centre</a> (2500 Birchmount
+        Road)</li>\n</ul>\n<p></p>\n<h3>Toronto &amp; East York District</h3>\n<p></p>\n<ul>\n<li><a
+        href=\"/parks/prd/facilities/complex/45/index.htm\">Harrison Baths</a> (15
+        Stephanie Street)</li>\n<li><a href=\"/parks/prd/facilities/complex/58/index.htm\">Jimmie
+        Simpson Recreation Centre</a> (870 Queen Street East)</li>\n<li><a href=\"/parks/prd/facilities/complex/63/index.htm\">John
+        Innes Community Recreation Centre</a> (150 Sherbourne Street)</li>\n<li><a
+        href=\"/parks/prd/facilities/complex/89/index.htm\">Masaryk-Cowan Community
+        Recreation Centre</a> (220 Cowan Avenue)</li>\n<li><a href=\"/parks/prd/facilities/complex/2012/\">Regent
+        Park Aquatic Centre</a> (640 Dundas Street East)</li>\n<li><a href=\"/parks/prd/facilities/complex/252/index.htm\">Regent
+        Park North Recreation Centre</a> (415 Gerrard Street East)</li>\n<li><a href=\"/parks/prd/facilities/complex/180/index.htm\">Regent
+        Park South Community Recreation Centre</a> (203 Sackville Green)</li>\n<li><a
+        href=\"/parks/prd/facilities/complex/1098/index.htm\">Scadding Court Community
+        Recreation Centre</a> (Scadding Court Community Recreation Centre, 707 Dundas
+        Street West)</li>\n<li><a href=\"/parks/prd/facilities/complex/325/index.htm\">Secord
+        Community Centre</a> (91 Barrington Avenue)</li>\n<li><a href=\"/parks/prd/facilities/complex/451/index.htm\">Wellesley
+        Community Centre</a> (495 Sherbourne Street)</li>\n</ul>\n<p></p>\n<p>If programs
+        are full, there will be waitlists created. If you can't attend the program
+        you are registered for, call 416-338-4386 to tell us so we can offer your
+        spot to someone on the waitlist.</p>\n<p><a href=\"#top\">Back to top</a></p>\n<p><a
+        name=\"faq\"></a></p>\n<h3>Frequently Asked Questions</h3>\n<p><strong>What
+        is the purpose of Community Centres Where Programs are Free?</strong><br />
+        The Centres were originally established in 1999 as a way to increase access
+        to programs in neighbourhoods with high levels of low income by eliminating
+        program fees. There are now 39 Community Centres Where Programs are Free.</p>\n<p><strong>What
+        programs/services are free at these Community Centres?</strong><br /> <strong>Free</strong></p>\n<ul>\n<li>All
+        City-delivered, registered and drop-in programs for all age groups</li>\n<li>Passes
+        and memberships for all age groups to fitness centres and weight rooms</li>\n<li>Permits
+        for local non-profit groups in rooms, gyms, and kitchens for all age groups</li>\n</ul>\n<p></p>\n<p><strong>Not
+        Free</strong></p>\n<ul>\n<li>Registered programs for residents of other municipalities</li>\n<li>Memberships
+        to tennis clubs and other sport clubs</li>\n<li>Permits and rentals to private
+        and commercial groups</li>\n<li>Permits and rentals in pools, arenas, ice
+        rinks, dry-pads, sport courts, and other unique facilities</li>\n<li>Permits
+        to Boards of Education</li>\n</ul>\n<p></p>\n<p><strong>Why is the City increasing
+        the number of these Community Centres? </strong><br /> The Recreation Service
+        Plan identified that the existing Centres Where Programs Are Free were not
+        equally distributed across the city. Using 2011 census information, 16 new
+        locations were identified ensuring more low income areas, to be served and
+        equitable distribution of locations across the City.</p>\n<p><strong>How were
+        the new Community Centres Where Programs Are Free selected? </strong><br />
+        The centres were selected based their proximity to low income census tracts
+        where over 28% of the population fall below Statistics Canada's Low Income
+        Measure. Council adopted the new criteria for selecting Community Centres
+        Where Programs Are Free when it approved the 2013-2017&nbsp;<a href=\"/wps/portal/contentonly?vgnextoid=0991dada600f0410VgnVCM10000071d60f89RCRD&amp;vgnextchannel=a96adada600f0410VgnVCM10000071d60f89RCRD\">Recreation
+        Service Plan</a> in November 2012.</p>\n<p><a href=\"#top\">Back to top</a></p>\r\n\t\t</article>\r\n</section>\r\n\t\r\n\r\n\r\n\r\n\r\n<!--
+        P:article-detail.jsp||ET:2016-04-22 15:17:55.422||T:1655 -->\r\n</div>\r\n<!--
+        R:defaultRegionLayout.jsp||ET:2016-04-22 15:55:45.356||T:0 -->\r\n</div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div>\r\n<!--
+        R:defaultRegionLayout.jsp||ST:2016-04-22 15:55:45.375 -->\r\n\r\n<!-- R:defaultRegionLayout.jsp||ET:2016-04-22
+        15:55:45.376||T:1 -->\r\n</div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<aside
+        id=\"r8\" class=\"r8 col-xs-12 col-sm-12 col-md-4 region\">\r\n\t\t\t\t\t\t\t<div>\r\n<!--
+        R:defaultRegionLayout.jsp||ST:2016-04-22 15:55:45.364 -->\r\n\r\n<!-- R:defaultRegionLayout.jsp||ET:2016-04-22
+        15:55:45.364||T:0 -->\r\n</div>\r\n\t\t\t\t\t\t\t<div>\r\n<!-- R:defaultRegionLayout.jsp||ST:2016-04-22
+        15:55:45.369 -->\r\n<div>\r\n\r\n\r\n<!-- START related-documents-style-1.jsp
+        (green field) -->\r\n<div id=\"related-docs\">\r\n\r\n<!-- P:related-documents-style-1.jsp||ST:2016-04-22
+        15:17:55.430 -->\r\n\r\n<section id=\"compid_6010d75d4751b310VgnVCM1000006cd60f89RCRD\">\t\t\t\r\n\r\n</div>
+        <!-- end #related-docs -->\r\n\t\r\n\r\n<!-- P:related-documents-style-1.jsp||ET:2016-04-22
+        15:17:55.490||T:60 -->\r\n\r\n<!-- END related-documents-style-1.jsp --></div><div>\r\n\r\n\r\n\r\n\r\n\r\n<!--
+        P:article-related-link-style-1||ST:2016-04-22 15:17:55.492 -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!--
+        P:article-related-link||ET:2016-04-22 15:17:55.492||T:0 -->\r\n</div>\r\n<!--
+        R:defaultRegionLayout.jsp||ET:2016-04-22 15:55:45.370||T:1 -->\r\n</div>\r\n\t\t\t\t\t\t\t<div>\r\n<!--
+        R:defaultRegionLayout.jsp||ST:2016-04-22 15:55:45.371 -->\r\n\r\n<!-- R:defaultRegionLayout.jsp||ET:2016-04-22
+        15:55:45.371||T:0 -->\r\n</div>\r\n\t\t\t\t\t\t</aside>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\t<div class=\"r9 col-xs-12 col-sm-12 region\">\r\n\t\t\t\t\t\t\t<div>\r\n<!--
+        R:defaultRegionLayout.jsp||ST:2016-04-22 15:55:45.374 -->\r\n<div>\r\n\r\n<!--
+        *** BEGIN content-item-back-button.jsp *** -->\r\n\r\n<!-- P:content-item-back-button||ST:2016-04-22
+        15:17:55.496 -->\r\n\r\n<section>\r\n<div class='media hidden-print'>\r\n\t<hr/>\r\n\t<span>Back
+        to: </span><a href=\"/wps/portal/contentonly?vgnextoid=a96adada600f0410VgnVCM10000071d60f89RCRD\">Recreation
+        Programs & Registration</a>\r\n</div>\r\n</section>\r\n\r\n<!-- P:content-item-back-button.jsp||ET:2016-04-22
+        15:17:55.497||T:1 -->\r\n\r\n\r\n<!-- *** END content-item-back-button.jsp
+        *** -->\r\n</div>\r\n<!-- R:defaultRegionLayout.jsp||ET:2016-04-22 15:55:45.375||T:1
+        -->\r\n</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t    \t</main>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t<div
+        class=\"r4 region\">\r\n\t\t\t<div>\r\n<!-- R:defaultRegionLayout.jsp||ST:2016-04-22
+        15:55:45.362 -->\r\n<div>\r\n\r\n\r\n\r\n\r\n\r\n<!-- start of footer.jsp
+        -->\r\n\r\n\r\n\r\n\r\n\r\n<!-- P:footer.jsp||ST:2016-04-22 15:51:26.725 ****
+        -->\r\n\r\n<!-- start of footer.jsp : [true]-->\r\n<footer class=\"sitefooter\"
+        role=\"contentinfo\">\r\n\t<div class=\"container\">\r\n\t\t<div class=\"col-xs-12\">\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t
+        \       \t\t<ul class=\"hidden-print\">\t\t\r\n\t\t        \t\t\r\n\t\t        \t\t\t\r\n\t\t
+        \       \t\t\t\r\n\t\t        \t\t\t\r\n\t\t        \t\t   \t\t\r\n\t\t        \t\t
+        \  \t\t\t\r\n\t\t\t        \t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"/wps/portal/contentonly?vgnextoid=4be8b9bd23805410VgnVCM10000071d60f89RCRD&amp;vgnextchannel=8e79f9be8db1c310VgnVCM1000006cd60f89RCRD\">Translate</a>
+        <!-- call LinkUtil.translateETL() -->\r\n\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t
+        \       \t\t   \t\t\r\n\t\t        \t\t   \t\t\r\n\t\t        \t\t  \t\r\n\t\t
+        \       \t\t\r\n\t\t        \t\t\t\r\n\t\t        \t\t\t\r\n\t\t        \t\t\t\r\n\t\t
+        \       \t\t   \t\t\r\n\t\t        \t\t   \t\t\t\r\n\t\t\t        \t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t\t\t\t<a
+        class=\"mail\" href=\"/wps/portal/contentonly?vgnextoid=1093e03bb8d1e310VgnVCM10000071d60f89RCRD\">Contact
+        us</a> <!-- call LinkUtil.translateETL() -->\r\n\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t
+        \       \t\t   \t\t\r\n\t\t        \t\t   \t\t\r\n\t\t        \t\t  \t\r\n\t\t
+        \       \t\t\r\n\t\t        \t\t\t\r\n\t\t        \t\t\t\r\n\t\t        \t\t\t\r\n\t\t
+        \       \t\t   \t\t\r\n\t\t        \t\t   \t\t\t\r\n\t\t\t        \t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t\t\t\t<a
+        href=\"/wps/portal/contentonly?vgnextoid=0791a6a3accc1410VgnVCM10000071d60f89RCRD\">Connect</a>
+        <!-- call LinkUtil.translateETL() -->\r\n\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t
+        \       \t\t   \t\t\r\n\t\t        \t\t   \t\t\r\n\t\t        \t\t  \t\r\n\t\t
+        \       \t\t\r\n\t\t        \t\t\t\r\n\t\t        \t\t\t\r\n\t\t        \t\t\t\r\n\t\t
+        \       \t\t   \t\t\r\n\t\t        \t\t   \t\t\t\r\n\t\t\t        \t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t\t\t\t<a
+        href=\"/wps/portal/contentonly?vgnextoid=86d3ba2ae8b1e310VgnVCM10000071d60f89RCRD\">311</a>
+        <!-- call LinkUtil.translateETL() -->\r\n\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t
+        \       \t\t   \t\t\r\n\t\t        \t\t   \t\t\r\n\t\t        \t\t  \t\r\n\t\t
+        \       \t\t\r\n\t\t        \t\t\t\r\n\t\t        \t\t\t\r\n\t\t        \t\t\t\r\n\t\t
+        \       \t\t   \t\t\r\n\t\t        \t\t   \t\t\t\r\n\t\t\t        \t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t\t\t\t<a
+        href=\"/wps/portal/contentonly?vgnextoid=8fd7e03bb8d1e310VgnVCM10000071d60f89RCRD\">Accessibility</a>
+        <!-- call LinkUtil.translateETL() -->\r\n\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t
+        \       \t\t   \t\t\r\n\t\t        \t\t   \t\t\r\n\t\t        \t\t  \t\r\n\t\t
+        \       \t\t\r\n\t\t        \t\t\t\r\n\t\t        \t\t\t\r\n\t\t        \t\t\t\r\n\t\t
+        \       \t\t   \t\t\r\n\t\t        \t\t   \t\t\t\r\n\t\t\t        \t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t\t\t\t<a
+        href=\"/wps/portal/contentonly?vgnextoid=539548ab95d83410VgnVCM10000071d60f89RCRD&amp;vgnextchannel=8e79f9be8db1c310VgnVCM1000006cd60f89RCRD\">Privacy</a>
+        <!-- call LinkUtil.translateETL() -->\r\n\t\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t
+        \       \t\t   \t\t\r\n\t\t        \t\t   \t\t\r\n\t\t        \t\t  \t\r\n\t\t
+        \       \t\t\r\n\t\t        \t\t\t\r\n\t\t        \t\t\t\r\n\t\t        \t\t\t\r\n\t\t
+        \       \t\t   \t\t\r\n\t\t        \t\t   \t\t\r\n\t\t        \t\t   \t\t\t</ul>\r\n\t\t
+        \       \t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\t\t<a href=\"/wps/portal/contentonly?vgnextoid=d57ab9bd23805410VgnVCM10000071d60f89RCRD&amp;vgnextchannel=8e79f9be8db1c310VgnVCM1000006cd60f89RCRD\"><span
+        class=\"glyphicon glyphicon-copyright-mark\"></span> City of Toronto, 1998-2016</a>
+        <!-- call LinkUtil.translateETL() -->\r\n\t\t        \t\t\t\t\t</p>\r\n\t\t
+        \       \t\t   \t\t\r\n\t\t        \t\t  \t\r\n\t\t        \t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\r\n\t\t</div>\r\n\t\t\t\r\n\t</div>\r\n</footer>\r\n\r\n<!--
+        START OF SmartSource Data Collector TAG v10.3.7 -->\r\n<!-- Copyright (c)
+        2013 Webtrends Inc.  All rights reserved. -->\r\n<script>\r\nvar dcsid_var
+        = \"dcssttpfm28nrlg4d5x668n3q_9r7m\";\r\n</script>\r\n<script type=\"text/javascript\"
+        src=\"/wcmAsset/js/web_analytics/webtrendsload.js\"></script>\r\n<script type=\"text/javascript\"
+        src=\"/wcmAsset/js/web_analytics/webtrends.js\"></script>\r\n\r\n<!-- P:footer.jsp||ET:2016-04-22
+        15:51:26.993||T:268 -->\r\n\r\n<!-- end of footer.jsp --></div>\r\n<!-- R:defaultRegionLayout.jsp||ET:2016-04-22
+        15:55:45.363||T:1 -->\r\n</div>\r\n\t\t</div>\r\n    </div>\r\n</body>\r\n\r\n\r\n<!--
+        Built by server libra-b1.inet.toronto.ca/206.130.165.15 on Fri Apr 22 15:55:45
+        EDT 2016 -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Fri, 22 Apr 2016 20:00:32 GMT
+recorded_with: VCR 2.9.3
