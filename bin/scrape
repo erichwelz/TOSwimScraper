@@ -24,12 +24,7 @@ else
 
   Scraper.display_mode(display_mode)
 
-  if ARGV.include?('-f')
-    Scraper.gather_pool_info
-    Scraper.gather_pool_swim_times
-    Scraper.gather_pool_program_cost_status
-  elsif ARGV.include?('-s')
-    Scraper.gather_pool_swim_times
-    Scraper.gather_pool_program_cost_status
-  end
+  Scraper.gather_pool_info if ARGV.include?('-f')
+  Scraper.gather_pool_swim_times
+  Scraper.gather_pool_program_cost_status
 end

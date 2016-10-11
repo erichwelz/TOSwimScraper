@@ -12,7 +12,6 @@ module Scraper
       @display_mode = display_mode
     end
 
-
     # faster testing
     # POOL_LIST_URLS = ["http://www1.toronto.ca/parks/prd/facilities/indoor-pools/index.htm"]
     # Full list
@@ -33,7 +32,6 @@ module Scraper
         pool_links += pools.css('a').map { |link| link['href'] }
         pool_addresses += gather_pool_addresses(pools)
       end
-
       # Geotag pools
       puts "\n--- Scraping pool coordinates ---"
       pool_coordinates = pool_addresses.map { |address| gather_pool_coordinates(address) }
@@ -48,11 +46,13 @@ module Scraper
         @pool_urls << current_pool
       end
 
+      #Filter out invalid pools
+      @pool_urls = @pool_urls.reject { |pool| pool[:name] == "" }
+
       # Write Hash
       File.open("pool_urls.json","w") do |f|
         f.write(@pool_urls.to_json)
       end
-
       @pool_urls
     end
 
@@ -145,7 +145,6 @@ module Scraper
 
       puts "\n--- Scraping pool swim times ---"
       @pool_urls.each do |pool|
-
         if @display_mode == "verbose"
           puts "Scraping: " + pool[:name]
         else
