@@ -88,36 +88,14 @@ module Scraper
     end
 
     def gather_pool_addresses(pools)
-      pool_addresses = []
-      address_index_incrementer = pools.css('td').length / pools.css('tr').length
-      pools.css('td').each_with_index do |node, index|
+      address_index = pools.css('td').length / pools.css('tr').length
+
+      pools.css('td').each_with_object([]).with_index do |(node, pool_addresses), index|
         # Address is always second column, table width varies for indoor vs. outdoor
-        if index % address_index_incrementer == 1
+        if index % address_index == 1
           pool_addresses << node.text
         end
       end
-      pool_addresses
-    end
-
-    # Method accepting a block that supresses stdout/console logging
-    #  https://gist.github.com/moertel/11091573
-
-    def suppress_output
-      begin
-        original_stderr = $stderr.clone
-        original_stdout = $stdout.clone
-        $stderr.reopen(File.new('/dev/null', 'w'))
-        $stdout.reopen(File.new('/dev/null', 'w'))
-        retval = yield
-      rescue Exception => e
-        $stdout.reopen(original_stdout)
-        $stderr.reopen(original_stderr)
-        raise e
-      ensure
-        $stdout.reopen(original_stdout)
-        $stderr.reopen(original_stderr)
-      end
-      retval
     end
 
     def gather_pool_coordinates(address)
@@ -127,7 +105,7 @@ module Scraper
         print "."
       end
 
-      coordinates_arr = suppress_output{ Geocoder.coordinates("#{address}, Toronto") }
+      coordinates_arr = Geocoder.coordinates("#{address}, Toronto")
 
       # To avoid triggering google API limit of 10 queries per second
       sleep(0.15)
