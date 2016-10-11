@@ -28,8 +28,8 @@ module Scraper
       POOL_LIST_URLS.each do |url|
         doc = Nokogiri::HTML(open(url))
         pools = doc.at_css("#pfrBody > div.pfrListing > table > tbody")
-        pool_names += pools.css('a').map { |link| link.children.text }
-        pool_links += pools.css('a').map { |link| link['href'] }
+        pool_names += pools.css('a').map { |link| link.children.text unless link.children.text == "" }.compact
+        pool_links += pools.css('a').map { |link| link['href'] if link['href'].match(/parks/) }.compact
         pool_addresses += gather_pool_addresses(pools)
       end
       # Geotag pools
@@ -45,9 +45,6 @@ module Scraper
         current_pool[:coordinates] = pool_coordinates[index]
         @pool_urls << current_pool
       end
-
-      #Filter out invalid pools
-      @pool_urls = @pool_urls.reject { |pool| pool[:name] == "" }
 
       # Write Hash
       File.open("pool_urls.json","w") do |f|
