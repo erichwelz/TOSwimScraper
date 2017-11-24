@@ -26,9 +26,13 @@ module Scraper
         doc = Nokogiri::HTML(open(url))
         pools = doc.at_css("#pfrBody > div.pfrListing > table > tbody")
         pool_names += pools.css('a').map { |link| link.children.text unless link.children.text == "" }.compact
-        pool_links += pools.css('a').map { |link| link['href'] if link['href'].match(/parks/) }.compact
+        pool_links += pools.css('a').map { |link| link['href'] if link['href'].match(/parks\/prd\/facilities\/complex/) }.compact
         pool_addresses += gather_pool_addresses(pools)
       end
+
+      array_length_equality = pool_names.length == pool_links.length && pool_links.length == pool_addresses.length
+      raise "Pool information lengths are unequal, the website schema has likely changed" unless array_length_equality
+
       # Geotag pools
       puts "\n--- Scraping pool coordinates ---"
       pool_coordinates = pool_addresses.map { |address| gather_pool_coordinates(address) }
@@ -101,8 +105,8 @@ module Scraper
 
       coordinates_arr = Geocoder.coordinates("#{address}, Toronto")
 
-      # To avoid triggering google API limit of 10 queries per second
-      sleep(0.15)
+      # To avoid triggering google API limit of 50 queries per second
+      sleep(0.02)
       return { latitude: coordinates_arr[0], longitude: coordinates_arr[1] }
     end
 
