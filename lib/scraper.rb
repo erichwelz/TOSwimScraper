@@ -13,12 +13,9 @@ module Scraper
     end
 
     # faster testing
-    # POOL_LIST_URLS = ["http://www1.toronto.ca/parks/prd/facilities/indoor-pools/index.htm"]
+    # POOL_LIST_URLS = ["https://web.toronto.ca/data/parks/prd/facilities/indoor-pools/index.html"]
     # Full list
-    POOL_LIST_URLS = ["http://www1.toronto.ca/parks/prd/facilities/indoor-pools/index.htm",
-            "http://www1.toronto.ca/parks/prd/facilities/indoor-pools/2-indoor_pool.htm",
-            "http://www1.toronto.ca/parks/prd/facilities/outdoor-pools/index.htm",
-            "http://www1.toronto.ca/parks/prd/facilities/outdoor-pools/2-outdoor_pool.htm"]
+    POOL_LIST_URLS = [ "https://web.toronto.ca/data/parks/prd/facilities/indoor-pools/index.html","https://web.toronto.ca/data/parks/prd/facilities/outdoor-pools/index.html" ]
 
     Geocoder.configure(:timeout => 10)
 
@@ -125,8 +122,7 @@ module Scraper
         else
           print "."
         end
-
-        url = "http://www1.toronto.ca" + pool[:url]
+        url = "https://www.toronto.ca" + pool[:url]
         doc = Nokogiri::HTML(open(url))
         pool[:times] = build_pool_schedule_array_from_html(doc)
       end
@@ -142,7 +138,7 @@ module Scraper
     def gather_pool_program_cost_status
       @pools = JSON.parse(File.read('pools_data.json'), symbolize_names: true)
 
-      page = "http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=aaafdada600f0410VgnVCM10000071d60f89RCRD&vgnextchannel=a96adada600f0410VgnVCM10000071d60f89RCRD"
+      page = "https://www1.toronto.ca/wps/portal/contentonly?vgnextoid=aaafdada600f0410VgnVCM10000071d60f89RCRD&vgnextchannel=a96adada600f0410VgnVCM10000071d60f89RCRD"
       doc = Nokogiri::HTML(open(page))
       free_facility_article = doc.at_css("#maincontent")
       links = free_facility_article.css('a')
