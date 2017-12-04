@@ -142,9 +142,9 @@ module Scraper
     def gather_pool_program_cost_status
       @pools = JSON.parse(File.read('pools_data.json'), symbolize_names: true)
 
-      page = "https://www1.toronto.ca/wps/portal/contentonly?vgnextoid=aaafdada600f0410VgnVCM10000071d60f89RCRD&vgnextchannel=a96adada600f0410VgnVCM10000071d60f89RCRD"
+      page = "https://www.toronto.ca/explore-enjoy/recreation/free-lower-cost-recreation-options/"
       doc = Nokogiri::HTML(open(page))
-      free_facility_article = doc.at_css("#maincontent")
+      free_facility_article = doc.at_css("#collapse-centres-where-programs-are-free")
       links = free_facility_article.css('a')
       all_hrefs = links.map { |link| link.attribute('href').to_s }.uniq.sort.delete_if { |href| href.empty? }
 
