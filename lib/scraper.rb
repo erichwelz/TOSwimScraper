@@ -25,7 +25,7 @@ module Scraper
       POOL_LIST_URLS.each do |url|
         doc = Nokogiri::HTML(open(url))
         pools = doc.at_css("#pfrBody > div.pfrListing > table > tbody")
-        pool_names += pools.css('a').map { |link| link.children.text unless link.children.text == "" }.compact
+        pool_names += pools.css('a').map { |link| link.children.text unless ( link.children.text == "" || link['href'].match(/maps/) ) }.compact
         pool_links += pools.css('a').map { |link| link['href'] if link['href'].match(/parks\/prd\/facilities\/complex/) }.compact
         pool_addresses += gather_pool_addresses(pools)
       end
