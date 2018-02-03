@@ -107,7 +107,12 @@ module Scraper
 
       # To avoid triggering google API limit of 50 queries per second
       sleep(0.02)
-      return { latitude: coordinates_arr[0], longitude: coordinates_arr[1] }
+      if coordinates_arr
+        return { latitude: coordinates_arr[0], longitude: coordinates_arr[1] }
+      else
+        puts "Retrying: #{address}..."
+        gather_pool_coordinates(address)
+      end
     end
 
     #####Parse Weekly Leisure Swim Data#####
